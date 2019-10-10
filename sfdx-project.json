@@ -1,0 +1,27 @@
+{
+  "packageDirectories" : [
+    {"path": "sfdx-source/force-app", "default": true}
+  ],
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "developerAlias"  : "sanjay",
+      "developerName"   : "Sanjay Kharwar",
+      "projectAlias"    : "Sample-app",
+      "projectName"     : "Sample App",
+      "projectFamily"   : "ADK",
+      "projectType"     : "single-demo",
+      "defaultRecipe"   : "demo-recipe.json",
+      "gitRemoteUri"    : "https://github.com/sanjaykharwar/test-sfdx-falcon.git",
+      "gitHubUrl"       : "https://github.com/my-org/my-repo",
+      "projectVersion"  : "0.0.1",
+      "schemaVersion"   : "0.0.1",
+      "pluginVersion"   : "0.0.93",
+      "appxPackage"     : {},
+      "appxDemo": {
+        "demoRecipes"   : ["demo-recipe.json"]
+      }
+    }			
+  }
+}
